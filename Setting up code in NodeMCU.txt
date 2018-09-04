@@ -1,0 +1,23 @@
+Setting up code in NodeMCU
+
+	Step1- Connect the NodeMCU to your PC using a USB cable.
+
+	Step2- Now, we’ll set up the Arduino IDE by changing some settings. So, open up the Arduino IDE.
+
+	Step3- Go to Tools > Port and make sure an appropriate port is selected. In my case it’s COM 4. This is the USB port in which the NodeMCU is connected.
+
+	Step4- Now Go to Tools > Board and select ‘NodeMCU 1.0 (ESP-12E Module)’ as the board. And that’s all the settings we need to change. So now let’s begin writing some code.
+
+	Step4- Go to Files > Examples > Blynk > Boards_WIFI > ESP8266_Standalone. A new file with some prewritten code will open.
+
+	Step5- Now, in this file we only need to change 3 lines of code.
+
+ 	   --- Change the line where it says ' char auth[] = "YourAuthToken" 'and replace the ‘YourAuthToken’ part with your Blynk’s auth token that you received in your email.
+
+	   ---  Change the line where it says ' char ssid[] = "YourNetworkName" ' and replace the ‘YourNetworkName’ part with the name of your WIFI network that you want your NodeMCU to connect to. In my case the 	            name of my WIFI network is ‘The Network’
+
+	   ---  Change the line where it says ' char pass[] = "YourPassword" ' and replace the ‘YourPassword’ part with the password of your WIFI network. In my case password of my WIFI network is ‘The Network’ is 	           ‘abcd1234’.
+
+	Step6- Now  directly press upload button at the top (-->), and wait for it to process.
+
+Note:- The code will be uploaded to the NodeMCU and the next time you power it on, it will automatically connect to the specified WIFI network.

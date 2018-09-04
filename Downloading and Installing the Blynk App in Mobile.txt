@@ -1,0 +1,18 @@
+ Downloading and Installing the Blynk App in Mobile.
+
+	Step1- Open Play store and download and install the Blynk App.
+
+	Step2- Once the app is installed either login to it using Facebook or create a new account on Blynk and login using that. In this case I have logged in using 	  	       Facebook.
+	
+	Step3- After logging in, create a new project by clicking ‘New Project’.
+
+	Step4- Give the project a name of your liking. Select the hardware device as NodeMCU and select the connection type as WIFI, and press create button.
+
+	Step5- At this point Blynk will send an Auth token to your email id. We will use this ‘Auth token’ later to link our app with the NodeMCU.
+
+	Step6- Now since I’m using a four-channel relay, I’ll add 4 buttons on the blank project. To add a new button just click anywhere on the blank area and select                  button from the side menu that pops up. You can place the button anywhere on the screen.
+
+	Step7- Click on the Button and give it a name. I’ll name it ‘R1’ as I’ll use it to control the first relay. Below the name, in the textbox select the pin as                    digital pin D3.
+
+	Step8- Repeat the process 3 more times and add three more buttons. Naming them R2, R3 and R4. And choosing their Digital Pins as D4, D5 and D6 respectively.
+

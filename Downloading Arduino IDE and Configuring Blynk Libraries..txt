@@ -1,0 +1,16 @@
+ Downloading Arduino IDE and Configuring Blynk Libraries.
+ 	
+	Step1- Now let’s install the Arduino IDE. download(link given below) the IDE for your preferred operating system.
+		link:- https://www.arduino.cc/en/Main/Software
+
+	Step2- Download the latest Blynk libraries from below link. These libraries will help us connect the Blynk app with the NodeMCU.
+		link:-https://github.com/blynkkk/blynk-library/releases/
+
+	Step3- Extract the download zip file in a folder.
+
+	Step4- Open up Arduino IDE, go to: File > Preferences and under the Settings tab, copy the sketchbook location path.
+
+	Step5- Now open the file explorer and go to the copied path location. This is the path where all the Blynk libraries are installed. So, we’ll have to copy all the newly downloaded Blynk libraries into this folder.
+	
+	Step6- Copy the files/folders from the Libraries folder of the downloaded Blynk directory, and paste it to the Libraries folder of your Arduino IDE’s directory (The path that we copied in step 5).
+ 	               Similarly, copy the files/folder from the Tools folder of the downloaded Blynk directory, and paste it to the Tools folder of your Arduino IDE’s directory.

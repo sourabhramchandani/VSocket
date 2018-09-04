@@ -1,0 +1,6 @@
+Steps Followed
+
+ Downloading and Installing the Blynk App in Mobile.
+ Downloading Arduino IDE and Configuring Blynk Libraries.
+ Setting up code in NodeMCU
+ Hardware Integration

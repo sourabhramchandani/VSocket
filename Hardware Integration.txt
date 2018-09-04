@@ -1,0 +1,15 @@
+Hardware Integration
+
+	Step1- We’ll have to connect the NodeMCU with the Relay board, you can choose to do it with a bread board or without. But I prefer doing it using a Breadboard.
+
+	Step2- Connect the D3 pin of NodeMCU with Pin 1 of Relay. Similarly connect D4 pin of NodeMCU with Relay pin 2, D5 with Relay 3 and D6 with Relay 4.
+
+	Step3- Connect Ground Pin of Relay with Ground Pin of NodeMCU.
+
+	Step4- Now to power up the NodeMCU you can use a normal phone charger, just make sure its voltage is not too high. And to power up the Relay board, you can use a battery or a separate breadboard power 	              supplier.
+
+	Step5- As we are using a four-channel relay you can connect at most 4 electronic appliances to the Relay and control them over the internet.
+
+Now if you want to connect your household appliances like Fan, Lights etc. which are connected to the main power of your house.
+
+Note:- While connecting household appliances turn off electricity of house from electric meter or take help of electrician.
