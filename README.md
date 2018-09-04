@@ -1,0 +1,2 @@
+# VSocket
+Virtual Socket is a IOT based Home Automation Project through which we can operate non-smart electrical appliances like fans, tube light, lamp etc. This project uses electricals appliances NODE-MCU, Stabilizer, Relay Board, Jump Wires and Software Requirements are C/C++, API of Blynk App and IFTTT domains. Through this integration of hardware electric circuit and software we can develop a smart room through which basic electric appliances can be automated.
